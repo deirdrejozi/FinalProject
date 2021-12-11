@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ratings</title>
+<link th:href="@{/styles.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<h2>Ratings</h2>
+	<form>
+		<table>
+			<tr>
+				<th class="id">Id</th>
+				<th class="name">Rating</th>
+				<th class="name">Rating Description</th>
+				<th class="action" th:colspan="2">Action</th>
+			</tr>
+			<tr th:each="rating:${ratings}">
+				<td class="id" th:text="${rating.rateId}"></td>
+				<td class="rate" th:text="${rating.rate}"></td>
+				<td class="rateDesc" th:text="${rating.rateDesc}"></td>
+				<td class="action"><a th:href="@{/editRating/{id}(id=${rating.rateId})}">Edit</a></td>
+				<td class="action"><a th:href="@{/deleteRating/{id}(id=${rating.rateId})}">Delete</a></td>
+			</tr>
+		</table>
+	</form>
+	<br />
+	<a th:href="inputRating">Add Rating</a><br/><br/>
+	<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

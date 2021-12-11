@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Easter Dramas</title>
+<link th:href="@{/styles.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<h2>Eastern Dramas</h2>
+	<form>
+		<table>
+			<tr>
+				<th class="id">Id</th>
+				<th class="name">Drama Title</th>
+				<th class="numOfReviews">Reviews</th>
+				<th class="revStars">Review</th>
+				<th class="releaseYear">Year</th>
+				<th class="subtitled">Subtitled</th>
+				<th class="primaryLang">Language</th>
+				<th class="country">Country</th>
+				<th class="genre">Genre</th>
+				<th class="rating">Rating</th>
+				<th class="action" th:colspan="2">Action</th>
+			</tr>
+			<tr th:each="drama:${dramas}">
+				<td class="id"   th:text="${drama.dramaId}"></td>
+				<td class="name" th:text="${drama.dramaTitle}"></td>
+				<td class="numOfReviews" th:text="${drama.numOfReviews}"></td>
+				<td class="revStars" th:text="${drama.revStars}"></td>
+				<td class="releaseYear" th:text="${drama.releaseYear}"></td>
+				<td class="subtitled" th:text="${drama.subtitled}? 'Yes' : 'No'"></td>
+				<td class="primaryLang" th:text="${drama.primaryLanguageName}"></td>
+				<td class="country" th:text="${drama.countryName}"></td>
+				<td class="genre" th:text="${drama.genreName}"></td>
+				<td class="rating" th:text="${drama.ratingRate}"></td>
+
+				<td class="action"><a th:href="@{/editDrama/{id}(id=${drama.dramaId})}">Edit</a></td>
+				<td class="action"><a th:href="@{/deleteDrama/{id}(id=${drama.dramaId})}" th:method="POST">Delete</a></td>
+			</tr>
+		</table>
+	</form>
+	<br />
+	<a th:href="inputDrama">Add Drama</a><br/><br/>
+	<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

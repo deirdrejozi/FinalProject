@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Genres</title>
+<link th:href="@{/styles.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<h2>Genres</h2>
+	<form>
+		<table>
+			<tr>
+				<th class="id">Id</th>
+				<th class="name">Genres Name</th>
+				<th class="action" th:colspan="2">Action</th>
+			</tr>
+			<tr th:each="genre:${genres}">
+				<td class="id" th:text="${genre.genreId}"></td>
+				<td class="name" th:text="${genre.genreName}"></td>
+				<td class="action"><a th:href="@{/editGenre/{id}(id=${genre.genreId})}">Edit</a></td>
+				<td class="action"><a th:href="@{/deleteGenre/{id}(id=${genre.genreId})}">Delete</a></td>
+			</tr>
+		</table>
+	</form>
+	<br />
+	<a th:href="inputGenre">Add Genre</a><br/><br/>
+	<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Insert/Update New Country</title>
+<link th:href="@{/styles.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<h2>Insert/Update Country</h2>
+	<form id="newCountry" th:object="${newCountry}"
+		th:action="@{/saveCountry/{id}(id=${newCountry.countryId})}" method='POST'>
+		<table>
+			<tr>
+				<td><label for="name">Name </label>
+					<input id="name" name="name" size="40" th:field="*{countryName}" required/><br />
+				</td>
+			</tr>
+		</table>
+		<br /> <input name="submit" type="submit" value="submit" />
+	</form>
+	<br />
+
+<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

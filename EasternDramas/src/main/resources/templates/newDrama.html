@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Create New Drama</title>
+<link th:href="@{/styles.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<h2>Create New Drama</h2>
+	<form id="drama" th:object="${drama}"
+			th:action="@{/saveDrama/{id}(id=null)}" method='POST'>
+		<table>
+			<tr>
+				<td><label for="title">Drama Title</label>
+					<input id="title" name="dramaTitle" size="40" th:field="*{dramaTitle}" required/><br />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="reviews">Number of Reviews</label>
+					<input id="reviews" name="numOfReviews" size="5" th:field="*{numOfReviews}"/><br />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="stars">Review Stars</label>
+					<input id="stars" name="revStars" size="5" th:field="*{revStars}"/><br />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="year">Release Year</label>
+					<input id="year" name="releaseYear" size="4" th:field="*{releaseYear}" required/><br />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="subtitled">Subtitled</label>
+					<input id="subtitled" type="checkbox" th:checked="*{subtitled}" /><br/>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="primaryLanguage">Primary Language</label>
+					<select id="primaryLanguage" th:field="*{primaryLanguageName}">
+						<option value="0"> -- </option>
+						<option th:each="language: ${languages}"
+							th:value="${language.langId}" th:text="${language.languageName}"></option>
+					</select> <br />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="country">Country</label>
+					<select id="country" th:field="*{countryName}">
+						<option value="0"> -- </option>
+						<option th:each="country: ${countries}"
+								th:value="${country.countryId}" th:text="${country.countryName}"></option>
+					</select> <br />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="genre">Genre</label>
+					<select id="genre" th:field="*{genreName}">
+						<option value="0"> -- </option>
+						<option th:each="genre: ${genres}"
+								th:value="${genre.genreId}" th:text="${genre.genreName}"></option>
+					</select> <br />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="rating">Rating</label>
+					<select id="rating" th:field="*{ratingRate}">
+						<option value="0"> -- </option>
+						<option th:each="rating: ${ratings}"
+								th:value="${rating.rateId}" th:text="${rating.rate}"></option>
+					</select> <br />
+				</td>
+			</tr>
+		</table>
+		<br /> <input name="submit" type="submit" value="submit" />
+	</form>
+	<br />
+	<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

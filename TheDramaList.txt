@@ -1,0 +1,109 @@
+drama_title|num_of_reviews|rvw_stars|release_year|subtitled|primary_language_name|country_name|genre_name|rating_rate
+Masked Prosecutor|1|4.0|2020|English|Korean|South Korea|Action|PG-13
+Love of Eternity|100000|3.7|2020|English|Chinese|China|Action|PG-13
+Dear Mayang Street|100000|5|2017|English|Chinese|China|Based on True Story|PG-13
+A Happy Life|100000|4.6|2018|English|Chinese|China|Comedy|PG-13
+Destiny's Love|100000|4.3|2014|none|Japanese|Japan|Christmas|PG-13
+General and I|100000|2.9|2015|English|Japanese|Japan|Historical|PG-13
+A Love Never Lost|100000|4.8|2012|none|Japanese|Japan|Educational|PG-13
+Above the Clouds|100000|4.9|2005|English|Japanese|Japan|Romance|PG-13
+Agent X|210000|3.3|2009|English|Korean|South Korea|Friendship|PG-13
+Dragon Ball Legend|240000|3.5|2021|English|Korean|South Korea|Historical|PG
+Airborne Blade|10000|4|2014|English|Korean|South Korea|Melodrama|PG
+The Legend Of Sealed Book|180000|4.8|2020|English|Korean|South Korea|Myth|G
+Remembering Lichuan|100000|3.7|2017|English|Chinese|Taiwan|Mystery|G
+Raiders of the New Way (2021)|210000|4|2018|English|Korean|South Korea|Political|PG-13
+Rainbow V|240000|4.6|2014|none|Japanese|Japan|Romance|PG-13
+A Chinese Odyssey|10000|4.3|2020|English|Japanese|Japan|Thriller|NC-17
+Ugly Beauty|180000|4.4|2017|English|Japanese|Japan|Tragedy|NC-17
+To be a Brave One|180000|5|2018|English|Japanese|Japan|Tragic Romance|PG-13
+Legend of the Dragon Pearl|180000|4.9|2014|English|Japanese|Japan|Action|PG-13
+Xiang Long Zhi Bai Lu Wei Shuang|180000|3.3|2015|none|Japanese|Japan|Based on True Story|G
+Xiao Bao He Lao Cai|180000|3.5|2012|English|Chinese|Taiwan|Comedy|PG-13
+Xing Fu Cong Tian Er Jiang|180000|4|2005|English|Chinese|Taiwan|Christmas|PG
+Yanxi Palace- Princess Adventures|180000|4.8|2009|English|Chinese|Taiwan|Crime|PG
+Yes We Can|180000|4.6|2021|English|Japanese|Japan|Educational|PG-13
+Yes! Mr. Fashion|180000|4.3|2014|none|Japanese|Japan|Food|PG-13
+Yesterday Once More|260000|2.9|2020|English|Japanese|Japan|Friendship|G
+Love in a Fallen City |470000|4.4|2017|English|Japanese|Japan|Romance|G
+Love til the End of Summer|59000|4.9|2018|English|Japanese|Japan|Melodrama|PG
+Love Under the Moon|59000|3.3|2014|English|Korean|South Korea|Romance|PG
+Love, Just Come|59000|3.5|2015|English|Korean|South Korea|Romance|PG-13
+Face to Sea|59000|4|2012|English|Korean|South Korea|Myth|PG
+Faceoff|59000|4.8|2005|English|Korean|South Korea|Romance|NC-17
+Fairyland Lovers|59000|3.5|2009|English|Korean|South Korea|Romance|PG-13
+Game Changer (2021)|59000|3.7|2021|English|Korean|South Korea|Political|PG-13
+General's Lady (2020)|202010|4.7|2014|English|Korean|South Korea|Historical|PG-13
+Get Married or Not|300000|4.6|2008|none|Korean|South Korea|Historical|PG-13
+Had Not Elapsed Time|30000|4.3|2020|English|Korean|South Korea|Romance|G
+Half a Fairy Tale|400000|4.4|2017|English|Korean|South Korea|Comedy|PG
+Half a Lifelong Romance (2020)|40000|1|2018|English|Chinese|Taiwan|Christmas|PG
+Half Bright and Half Rain (2019)|555000|4.9|2014|English|Chinese|Taiwan|Romance|PG-13
+Hand in Hand (2021)|870000|3.3|2015|English|Korean|South Korea|Myth|G
+Ga Doo Ri's Sushi Restaurant|100000|3.5|2012|English|Korean|South Korea|Food|R
+Hwarang|100000|4|2005|English|Korean|South Korea|Friendship|R
+Forbidden Dream|100000|4.8|2009|English|Korean|South Korea|Historical|R
+Great King Sejong|100000|5|2021|English|Korean|South Korea|Melodrama|PG-13
+Game Development Girls (2016)|100000|4.6|2014|English|Korean|South Korea|Myth|NC-17
+Gu family Book|100000|4.3|2020|English|Korean|South Korea|Myth|NC-17
+HA-HA Land|100000|4.4|2017|English|Chinese|China|Political|PG-13
+Kyung-kyu|210000|5|2018|English|Chinese|South Korea|Myth|PG-13
+Gumiho Tale of The Fox's Child|240000|4.9|2014|none|Chinese|China|Thriller|PG-13
+Detective K- Secret Island|10000|3.9|2020|English|Chinese|China|Tragedy|PG-13
+Empreror Wang Gun|180000|3.5|2017|English|Korean|South Korea|Tragic Romance|PG-13
+Han Myung Hoe|100000|4|2018|English|Korean|South Korea|Historical|G
+Yacht Expedition: The Beginning (2020)|210000|4.9|2014|none|Korean|South Korea|Based on True Story|R
+Empress Ki|240000|3.7|2015|English|Chinese|Taiwan|Comedy|R
+Blades of Blood|10000|5|2012|English|Korean|South Korea|Action|R
+Zutto Anata ga Sukidatta|59000|4.6|2005|English|Japanese|Japan|Crime|PG-13
+Zombie School|59000|4.3|2009|English|Japanese|Japan|Educational|R
+Waiting for Love|59000|4.9|2021|English|Japanese|Japan|Food|R
+Waikiki Brothers|59000|5|2014|English|Chinese|Taiwan|Friendship|PG-13
+Brotherhood Of War|59000|4.9|2020|none|Chinese|Taiwan|Historical|G
+Sad Love Story|59000|3.3|2017|English|Chinese|Taiwan|Melodrama|PG
+Taberu Dake|202010|4.7|2018|English|Chinese|Taiwan|Myth|PG
+G-Dragon: �One of a Kind in Seoul'|300000|4|2014|English|Chinese|Taiwan|Mystery|PG
+The Beginning of a New World|30000|3.7|2015|none|Korean|South Korea|Political|PG-13
+P1 Harmony- Harmonission|400000|5|2012|English|Korean|South Korea|Romance|NC-17
+Back in the Day|40000|4.6|2005|English|Korean|South Korea|Thriller|NC-17
+Na Rae, Kicking Out|555000|4.3|2020|English|Korean|South Korea|Tragedy|PG-13
+Naked Fireman|870000|4.5|2017|English|Korean|South Korea|Tragic Romance|PG-13
+Nameless Gangster|59000|5|2018|English|Korean|South Korea|Action|PG-13
+Obstetrics and Gynecology Doctors|59000|4.9|2014|English|Korean|South Korea|Based on True Story|PG-13
+Tragic Fire-Busan|59000|3.3|2015|English|Chinese|China|Comedy|PG-13
+Love is kind|59000|3.5|2012|English|Chinese|China|Christmas|G
+Homme Fatale|59000|4|2005|English|Chinese|China|Crime|PG-13
+Quantum Physics|202010|4.8|2009|none|Chinese|China|Educational|PG-13
+To The Goose|300000|3.7|2021|English|Chinese|China|Food|PG-13
+Obsessed|30000|5|2014|English|Chinese|China|Friendship|PG-13
+Sisters|400000|4.6|2020|English|Chinese|China|Historical|PG
+Eternal Love|40000|4.3|2017|English|Chinese|China|Melodrama|PG
+Qualifications Of Men|555000|4.3|2018|English|Chinese|China|Myth|PG-13
+A Bloody Aria|870000|5|2014|English|Chinese|China|Mystery|PG-13
+Unasked Family (2019)|100000|4.9|2020|English|Korean|South Korea|Political|PG-13
+Unalterable|100000|3.3|2017|English|Korean|South Korea|Romance|PG-13
+Vagabond|100000|3.5|2018|English|Korean|South Korea|Thriller|G
+Paik's Mysterious Kitchen|100000|4|2014|English|Korean|South Korea|Food|PG
+B.A.P Attack!|100000|4.8|2015|English|Chinese|Taiwan|Tragic Romance|PG
+Hello My Nemesis|100000|3.7|2012|English|Chinese|Taiwan|Action|PG-13
+Yacht Expedition|100000|5|2005|English|Chinese|Taiwan|Based on True Story|G
+Vampire Cop Ricky|210000|4.6|2009|English|Korean|South Korea|Comedy|NC-17
+Ultimate Taste|240000|4.3|2021|English|Korean|South Korea|Christmas|NC-17
+Ugly Alert|10000|4.1|2014|English|Korean|South Korea|Crime|G
+Walking Girl|180000|5|2020|English|Korean|South Korea|Educational|PG-13
+B.A.P Killing Camp|100000|4.9|2017|English|Chinese|China|Food|PG
+B.A.P Untact Life|210000|3.3|2018|English|Chinese|China|Friendship|PG
+One Fine Day|240000|3.5|2014|English|Chinese|China|Historical|PG-13
+Sesame Player|10000|4|2015|none|Korean|South Korea|Melodrama|PG-13
+D-Day (Korean Drama)|180000|4.8|2012|English|Korean|South Korea|Myth|PG-13
+Fabricated City 2017|180000|3.7|2005|English|Chinese|Taiwan|Mystery|PG-13
+A Better Tomorrow|180000|5|2009|English|Chinese|Taiwan|Political|G
+Ufo In Her Eyes|180000|4.6|2021|English|Chinese|Taiwan|Romance|PG
+Da Capo (2020)|180000|4.3|2014|English|Chinese|Taiwan|Thriller|PG
+Eat Drink Man Woman|180000|4.6|2008|English|Chinese|Taiwan|Tragedy|PG-13
+A Bittersweet Life DirCut|180000|5|2005|English|Chinese|Taiwan|Tragic Romance|G
+Take Care Of My Cat|180000|4.9|2009|none|Chinese|Taiwan|Comedy|NC-17
+C.T.O Project - The Survival|180000|3.3|2021|none|Chinese|China|Based on True Story|PG
+Cabin Crew|260000|3.5|2014|English|Chinese|China|Comedy|PG-13
+C'est Si Bon|470000|4|2008|English|Chinese|China|Christmas|PG-13
+A Barefoot Dream|59000|4.8|2020|English|Chinese|China|Crime|PG-13

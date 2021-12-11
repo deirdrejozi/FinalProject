@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Languages</title>
+<link th:href="@{/styles.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<h2>Languages</h2>
+	<form>
+		<table>
+			<tr>
+				<th class="id">Id</th>
+				<th class="name">Language Name</th>
+				<th class="action" th:colspan="2">Action</th>
+			</tr>
+			<tr th:each="language:${languages}">
+				<td class="id" th:text="${language.langId}"></td>
+				<td class="name" th:text="${language.languageName}"></td>
+				<td class="action"><a th:href="@{/editLanguage/{id}(id=${language.langId})}">Edit</a></td>
+				<td class="action"><a th:href="@{/deleteLanguage/{id}(id=${language.langId})}">Delete</a></td>
+			</tr>
+		</table>
+	</form>
+	<br />
+	<a th:href="inputLanguage">Add Language</a><br/><br/>
+	<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+	table, tr, td {border: 1px solid black;}
+	table {border-collapse: collapse}
+	.st{text-align:center}
+	.id {width:5%; text-align: center}
+	.name {width:35%; text-align:left}
+	.birthdate {width:10%; text-align:left}
+	.license {width:10%; text-align:left}
+	.insurance {width:20%; text-align:center}
+	.phone {width:10%; text-align:left}
+	.action {width:5%; text-align: center}
+	label {color:blue; display: block; width:115px; float: left}
+	a {background-color:blue; color: white; font-size: x-small; border-width:1px; border-color: white;
+		alignment:center; padding: .5em .5em .5em .5em;
+		display: inline-block; width:50px; text-decoration: none; }
+	h2 {color:blue}
+	input[type=submit] {background-color:blue; color:white; padding:5px 10px; margin:4px 2px}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Insert/Update New Rating</title>
+<link th:href="@{/styles.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<h2>Insert/Update Rating</h2>
+	<form id="newRating" th:object="${newRating}"
+		th:action="@{/saveRating/{id}(id=${newRating.rateId})}" method='POST'>
+		<table>
+			<tr>
+				<td><label for="rate">Name </label>
+					<input id="rate" name="rate" size="10" th:field="*{rate}" required/><br />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="rateDesc">Name </label>
+					<input id="rateDesc" name="rateDesc" size="40" th:field="*{rateDesc}" required/><br />
+				</td>
+			</tr>
+		</table>
+		<br /> <input name="submit" type="submit" value="submit" />
+	</form>
+	<br />
+
+<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>
